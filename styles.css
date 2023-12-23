@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+
+/*CSS Reset*/
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: #fff;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.reg-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #626b96;
+}
+
+.sem-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #1b1e30;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  background-color: #2b304d;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 20%);
+}
+
+.left-box {
+  width: 400px;
+  margin: 40px 80px 20px 80px;
+}
+.navbar {
+  margin-bottom: 50px;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.navbar a {
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navbar a:hover {
+  color: #fff;
+  border-bottom: 2px solid #efaa75;
+}
+
+.form-container > h1 {
+  padding-bottom: 10px;
+}
+
+form {
+  padding: 30px 0;
+}
+
+.input-data {
+  display: block;
+  width: 400px;
+  height: 70px;
+  background-color: #3f4364;
+  border: none;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+#username {
+  border-left: 5px solid #efaa75;
+}
+
+.password-container input {
+  margin-bottom: 10px;
+}
+
+.password-container {
+  position: relative;
+  width: fit-content;
+}
+
+#eye-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: white;
+}
+
+#checkbox-password {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#checkbox-password a {
+  color: #626b96;
+}
+
+#checkbox-password a:hover {
+  color: #efaa75;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #efaa75;
+}
+
+button {
+  font-size: 18px;
+  width: 180px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #efaa75;
+  margin-bottom: 30px;
+  color: #2b304d;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.social-media > p {
+  margin-right: 20px;
+}
